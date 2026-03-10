@@ -1,0 +1,22 @@
+{% extends 'associado/base.html' %}
+
+{% block content %}
+
+   Aquié o perfil do associado!
+
+{% endblock %}
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil do Associado</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    Aqui é o Perfil
+    <img src="{% static 'assets/insira_imagem_aqui.png' %}" alt="descrição da imagem">
+</body>
+</html>
