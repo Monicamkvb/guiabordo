@@ -6,3 +6,4 @@ def index(request):
 
 def perfil(request):
    return render(request, 'associado/perfil.html')
+
